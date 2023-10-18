@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.font {
+    font-family: Dancing Script;
+}
+
+.dot {
+    color: black;
+    background: #000;
+}
+
+@media only screen and (max-width: 380px) {
+    .banner {
+        height: 80vh;
+    }
+}
